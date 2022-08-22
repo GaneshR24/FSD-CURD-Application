@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&display=swap');
+
+:root {
+    --primary-font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    font-family: var(--primary-font-family);
+    background-color: #ffffff;
+    background: linear-gradient(to right, hsl(200, 100%, 50%), hsl(175, 100%, 50%));
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1.2rem;
+}
+
+.avatar {
+    width: 5rem;
+}
+
